@@ -1,0 +1,12 @@
+[
+  { "id": "dog", "name": "Dog", "file": "dog.svg", "sound": null },
+  { "id": "cat", "name": "Cat", "file": "cat.svg", "sound": null },
+  { "id": "octopus", "name": "Octopus", "file": "octopus.svg", "sound": null },
+  { "id": "prairie-dog", "name": "Prairie Dog", "file": "prairie-dog.svg", "sound": null },
+  { "id": "elephant", "name": "Elephant", "file": "elephant.svg", "sound": null },
+  { "id": "lion", "name": "Lion", "file": "lion.svg", "sound": null },
+  { "id": "fish", "name": "Fish", "file": "fish.svg", "sound": null },
+  { "id": "duck", "name": "Duck", "file": "duck.svg", "sound": null },
+  { "id": "turtle", "name": "Turtle", "file": "turtle.svg", "sound": null },
+  { "id": "cow", "name": "Cow", "file": "cow.svg", "sound": null }
+]

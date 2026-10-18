@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art review (dev only)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; background: #f3f3f3; }
+    h1 { margin: 0 0 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 20px; }
+    figure { margin: 0; background: #fff; border-radius: 12px; padding: 12px; box-shadow: 0 1px 4px #0002; }
+    figure img { width: 100%; aspect-ratio: 1; display: block; border: 1px dashed #ccc; }
+    figcaption { font-size: 22px; font-weight: 600; text-align: center; margin-top: 8px; }
+    .icons { display: flex; gap: 32px; align-items: end; margin: 16px 0 28px; }
+    .icons div { text-align: center; font-size: 13px; color: #555; }
+    .icons img { display: block; margin: 0 auto 6px; }
+    .round { border-radius: 50%; }
+    .square { border-radius: 22%; }
+  </style>
+</head>
+<body>
+  <h1>Color Critters: art review</h1>
+  <p>App icon at home-screen sizes (48px is typical on a phone, 64px on a tablet), plus Android's round and squircle masks:</p>
+  <div class="icons" id="icons"></div>
+  <div class="grid" id="grid"></div>
+  <script type="module" src="./review.ts"></script>
+</body>
+</html>
