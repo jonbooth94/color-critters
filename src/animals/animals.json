@@ -8,5 +8,15 @@
   { "id": "fish", "name": "Fish", "file": "fish.svg", "sound": null },
   { "id": "duck", "name": "Duck", "file": "duck.svg", "sound": null },
   { "id": "turtle", "name": "Turtle", "file": "turtle.svg", "sound": null },
-  { "id": "cow", "name": "Cow", "file": "cow.svg", "sound": null }
+  { "id": "cow", "name": "Cow", "file": "cow.svg", "sound": null },
+  { "id": "pig", "name": "Pig", "file": "pig.svg", "sound": null },
+  { "id": "bunny", "name": "Bunny", "file": "bunny.svg", "sound": null },
+  { "id": "frog", "name": "Frog", "file": "frog.svg", "sound": null },
+  { "id": "bear", "name": "Bear", "file": "bear.svg", "sound": null },
+  { "id": "giraffe", "name": "Giraffe", "file": "giraffe.svg", "sound": null },
+  { "id": "penguin", "name": "Penguin", "file": "penguin.svg", "sound": null },
+  { "id": "owl", "name": "Owl", "file": "owl.svg", "sound": null },
+  { "id": "sheep", "name": "Sheep", "file": "sheep.svg", "sound": null },
+  { "id": "monkey", "name": "Monkey", "file": "monkey.svg", "sound": null },
+  { "id": "whale", "name": "Whale", "file": "whale.svg", "sound": null }
 ]
