@@ -5,3 +5,5 @@ playwright-report/
 blob-report/
 .vite/
 *.log
+dist-update-a/
+dist-update-b/

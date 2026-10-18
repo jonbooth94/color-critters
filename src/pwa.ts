@@ -39,5 +39,9 @@ export function initPwa(canApply: () => boolean): void {
 export function maybeApplyUpdate(): void {
   if (!updateReady || !applyUpdate || !isSafe()) return;
   updateReady = false;
+  // Reload as soon as the new version takes control. The plugin only does this itself
+  // when the page was already controlled at launch, so a first-ever session would
+  // otherwise keep running old code under the new service worker.
+  navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload(), { once: true });
   void applyUpdate(true);
 }

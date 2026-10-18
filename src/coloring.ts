@@ -96,6 +96,7 @@ export class ColoringScreen {
     this.endStroke();
     this.animal = animal;
     this.ready = false;
+    delete this.canvas.dataset.ready;
     this.dirty = false;
     this.fillWhite();
     this.outline.src = animal.svgUrl;
@@ -118,6 +119,7 @@ export class ColoringScreen {
       }
     }
     this.ready = true;
+    this.canvas.dataset.ready = 'true'; // lets end-to-end tests know the saved drawing is restored
     playChime();
     if (animal.soundUrl) playFile(animal.soundUrl);
   }
@@ -129,6 +131,7 @@ export class ColoringScreen {
     const saved = this.flush();
     this.animal = null;
     this.ready = false;
+    delete this.canvas.dataset.ready;
     return saved;
   }
 
